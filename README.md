@@ -28,8 +28,6 @@ Vendor_Invoice_Intelligence_System/
 │
 ├── app.py
 ├── README.md
-├── data/
-│   └── inventory.db
 ├── freight_cost_prediction/
 │   ├── data_prepossing.py
 │   ├── model_evalution.py
@@ -114,6 +112,7 @@ The project uses the SQLite database file:
 
 ```text
 data/inventory.db
+**The `inventory.db` file is not included in this repository because of its size**
 ```
 
 ---
